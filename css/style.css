@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url(components.css);
+@import url(main.css);
+@import url(header.css);
+@import url(footer.css);
+
+
+:root{
+    --navyBlue: #0A2540;
+    --purple:#7A73FF;
+    --lightBlue:#80E9FF;
+    --yellow:#F3BD40;
+    --grey: rgba(185, 183, 183, 0.568);
+    --grey-dark:rgb(80, 76, 76);
+    
+}
+
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+    max-width:1300px;
+    color: var(--navyBlue);
+}
+
+h1{
+     
+    font-size: 37px;
+    margin-left: 178px; 
+    margin-bottom: 44px;
+}
+
+.h1Purple{
+    color: var(--purple);
+}
+
+h3{
+    font-size: 18px;
+}
