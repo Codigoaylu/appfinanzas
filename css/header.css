@@ -28,6 +28,7 @@ figcaption{
 }
 
 .h1Header{
+    margin-left: 0px;
     color: white;
     font-size: 40px;   
 }
